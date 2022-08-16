@@ -103,7 +103,7 @@ nav ul li a:hover{
     width: 340px;
     height: 40px;
     text-align: center;
-    background-color: #3D0E59;
+    background-color: #280f44;
     border-radius: 20px;
     border: none;
     font-size: 20px;
@@ -139,7 +139,7 @@ nav ul li a:hover{
 #break-section{
     background-image: url(../src/images/break-section.png);
     background-size: cover;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -160,21 +160,22 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 1px;
     line-height: 50px;
 }
 #valores-empresa{
     display: flex;
     width: 100%;
-    height: 400px;
+    min-height: 500px;
+    max-height: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 .bloco-valores{
     width: 450px;
-    margin: 30px;
+    margin: 10px 30px;
     text-align: center;
 }
 .titulo-valores{
@@ -192,4 +193,36 @@ nav ul li a:hover{
 }
 .valores-content{
     font-weight: 300;
+}
+#equipe{
+    height: 400px;
+}
+#titulo-equipe{
+    font-size: 35px;
+    color: #540F85;
+    text-align: center;
+}
+#subtitulo-equipe{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.card-integrante{
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.bloco-texto-integrante{
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+}
+#felipe{
+    background-image: url(../src/images/felipe.jpg);
+}
+.integrante-info{
+    z-index: 3;
+    background-color: #F5F5F5;
+    height: 100px;
 }
