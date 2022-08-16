@@ -1,11 +1,165 @@
-body {
-font-family: 'Kulim Park', sans-serif;
-margin: 0px; padding: 0px;
-
+* {
+    margin: 0px;
+    padding: 0px;
 }
-nav ul{
+
+body {
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 20px;
+}
+header{
+    position: fixed;
+    background-color: #280f44;
+    height: 55px;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
+    opacity: 0.9;
+    z-index: 3;
+}
+#header-images{
+    display: flex;
+}
+#modes{
+    background-image: url('../src/images/Sun.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+#symetra-logo{
+    background-image: url('../src/images/symetra-logo.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+#modes:hover, #symetra-logo:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#modes:hover{
+    background-image: url('../src/images/SunFull.png');
+}
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
     list-style: none;
+}
+nav ul li, nav ul li a{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    background-color: #1b052b;
+}
+#apresentacao{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-image: url(../src/images/Background-Inicio.jpg);
+    background-size: cover;
+    align-items: center;
+}
+#bloco-texto{
+    background-color: #EFEFEF;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 220px;
+    margin: 0px 50px;
+    border-radius: 30px;
+}
+#titulo-apresentacao{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+#texto-apresentacao{
+    height: 60px;
+    display: flex;
+    margin: 20px 40px;
+    align-items: center;
+    justify-content: center;
+}
+#botao-nossos-projetos{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#botao-nossos-projetos button{
+    width: 340px;
+    height: 40px;
+    text-align: center;
+    background-color: #3D0E59;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+}
+#botao-nossos-projetos button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+#content-inicio{
+    font-weight: lighter;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 350px;
+}
+#imagem-inicio{
+    background-image: url(../src/images/rapaz-inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 305px;
+    height: 225px;
+}
+#texto-inicio{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+}
+#break-section{
+    background-image: url(../src/images/break-section.png);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#break-section-subtitle{
+    color: #D7A9EF;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    font-weight: bold;
+}
+#break-section-title{
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 50px;
 }
