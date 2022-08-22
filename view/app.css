@@ -8,7 +8,6 @@ body {
     font-family: 'Kulim Park', sans-serif;
     font-size: 20px;
     background-color: #F5F5F5;
-    overflow: hidden;
 }
 header{
     position: fixed;
@@ -212,14 +211,26 @@ nav ul li a:hover{
 #carousel-equipe{
     display: flex;
     height: 400px;
-    width: 100%;
-    justify-content: space-evenly;
     align-items: center;
+    overflow-x: auto;
 }
+.carousel-equipe::-webkit-scrollbar {
+    width: 12px;              /* width of the entire scrollbar */
+  }
+  .carousel-equipe::-webkit-scrollbar-track {
+    background: #376a8a;        /* color of the tracking area */
+  }
+  .carousel-equipe::-webkit-scrollbar-thumb {
+    background-color: #45B26F;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid #002841;  /* creates padding around scroll thumb */
+  }
 .card-integrante{
     min-width: 250px;
     min-height: 300px;
-    margin: 0px 40px;
+    max-width: 250px;
+    max-height: 300px;
+    margin: 0 30px;
     background-size: cover;
     background-position: center;
     display: flex;
