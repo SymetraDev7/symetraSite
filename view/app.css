@@ -9,7 +9,8 @@ body {
     font-size: 20px;
     background-color: #F5F5F5;
 }
-header{
+
+header {
     position: fixed;
     background-color: #280f44;
     height: 55px;
@@ -19,28 +20,35 @@ header{
     opacity: 0.9;
     z-index: 3;
 }
-#header-images{
+
+#header-images {
     display: flex;
 }
-#modes{
+
+#modes {
     background-image: url('../src/images/Sun.png');
     background-size: cover;
     width: 50px;
     height: 50px;
 }
-#symetra-logo{
+
+#symetra-logo {
     background-image: url('../src/images/symetra-logo.png');
     background-size: cover;
     width: 50px;
     height: 50px;
 }
-#modes:hover, #symetra-logo:hover{
+
+#modes:hover,
+#symetra-logo:hover {
     opacity: 0.8;
     cursor: pointer;
 }
-#modes:hover{
+
+#modes:hover {
     background-image: url('../src/images/SunFull.png');
 }
+
 nav {
     display: flex;
 }
@@ -49,7 +57,9 @@ nav ul {
     display: flex;
     list-style: none;
 }
-nav ul li, nav ul li a{
+
+nav ul li,
+nav ul li a {
     display: flex;
     width: 150px;
     justify-content: center;
@@ -58,10 +68,12 @@ nav ul li, nav ul li a{
     text-decoration: none;
     color: #fff;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     background-color: #1b052b;
 }
-#apresentacao{
+
+#apresentacao {
     display: flex;
     width: 100%;
     height: 450px;
@@ -69,7 +81,8 @@ nav ul li a:hover{
     background-size: cover;
     align-items: center;
 }
-#bloco-texto{
+
+#bloco-texto {
     background-color: #EFEFEF;
     opacity: 0.9;
     display: flex;
@@ -79,7 +92,8 @@ nav ul li a:hover{
     margin: 0px 50px;
     border-radius: 30px;
 }
-#titulo-apresentacao{
+
+#titulo-apresentacao {
     display: flex;
     height: 60px;
     width: 100%;
@@ -87,20 +101,23 @@ nav ul li a:hover{
     align-items: center;
     font-size: 32px;
 }
-#texto-apresentacao{
+
+#texto-apresentacao {
     height: 60px;
     display: flex;
     margin: 20px 40px;
     align-items: center;
     justify-content: center;
 }
-#botao-nossos-projetos{
+
+#botao-nossos-projetos {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
-#botao-nossos-projetos button{
+
+#botao-nossos-projetos button {
     width: 340px;
     height: 40px;
     text-align: center;
@@ -110,11 +127,13 @@ nav ul li a:hover{
     font-size: 20px;
     color: #fff;
 }
-#botao-nossos-projetos button:hover{
+
+#botao-nossos-projetos button:hover {
     opacity: 0.9;
     cursor: pointer;
 }
-#content-inicio{
+
+#content-inicio {
     font-weight: 300;
     text-align: center;
     display: flex;
@@ -124,20 +143,23 @@ nav ul li a:hover{
     align-items: center;
     min-height: 350px;
 }
-#imagem-inicio{
+
+#imagem-inicio {
     background-image: url(../src/images/rapaz-inicio.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 305px;
     height: 225px;
 }
-#texto-inicio{
+
+#texto-inicio {
     display: flex;
     align-items: center;
     width: 600px;
     height: 300px;
 }
-#break-section{
+
+#break-section {
     background-image: url(../src/images/break-section.png);
     background-size: cover;
     height: 350px;
@@ -148,14 +170,16 @@ nav ul li a:hover{
     align-items: center;
     font-size: 25px;
 }
-#break-section-subtitle{
+
+#break-section-subtitle {
     color: #D7A9EF;
     display: flex;
     height: 80px;
     align-items: center;
     font-weight: bold;
 }
-#break-section-title{
+
+#break-section-title {
     color: white;
     height: 200px;
     display: flex;
@@ -165,7 +189,8 @@ nav ul li a:hover{
     letter-spacing: 1px;
     line-height: 50px;
 }
-#valores-empresa{
+
+#valores-empresa {
     display: flex;
     width: 100%;
     min-height: 500px;
@@ -174,12 +199,14 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
 }
-.bloco-valores{
+
+.bloco-valores {
     width: 450px;
     margin: 10px 30px;
     text-align: center;
 }
-.titulo-valores{
+
+.titulo-valores {
     color: #670DA7;
     font-size: 25px;
     display: flex;
@@ -188,44 +215,54 @@ nav ul li a:hover{
     align-items: center;
     height: 60px;
 }
-.titulo-valores img{
+
+.titulo-valores img {
     width: 40px;
     margin: 0px 20px;
 }
-.valores-content{
+
+.valores-content {
     font-weight: 300;
 }
-#equipe{
-    height: 400px;
+
+#equipe {
+    min-height: 600px;
 }
-#titulo-equipe{
+
+#titulo-equipe {
     font-size: 35px;
     color: #540F85;
     text-align: center;
 }
-#subtitulo-equipe{
+
+#subtitulo-equipe {
     text-align: center;
     font-size: 25px;
     font-weight: 500;
 }
-#carousel-equipe{
+
+#carousel-equipe {
     display: flex;
-    height: 400px;
+    height: 350px;
     align-items: center;
     overflow-x: auto;
 }
-.carousel-equipe::-webkit-scrollbar {
-    width: 12px;              /* width of the entire scrollbar */
-  }
-  .carousel-equipe::-webkit-scrollbar-track {
-    background: #376a8a;        /* color of the tracking area */
-  }
-  .carousel-equipe::-webkit-scrollbar-thumb {
-    background-color: #45B26F;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 2px solid #002841;  /* creates padding around scroll thumb */
-  }
-.card-integrante{
+
+#carousel-equipe::-webkit-scrollbar {
+    width: 12px;
+}
+
+#carousel-equipe::-webkit-scrollbar-track {
+   background: #A759D0;
+}
+
+#carousel-equipe::-webkit-scrollbar-thumb {
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    border: 3px solid #A759D0;
+}
+
+.card-integrante {
     min-width: 250px;
     min-height: 300px;
     max-width: 250px;
@@ -242,24 +279,30 @@ nav ul li a:hover{
     background-position: center;
     overflow: hidden;
 }
-.card-integrante:hover{
+
+.card-integrante:hover {
     cursor: pointer;
 }
-.card-integrante:hover > .integrante-info{
+
+.card-integrante:hover>.integrante-info {
     height: 70px;
     visibility: visible;
     display: flex;
 }
-#felipe{
+
+#felipe {
     background-image: url('../src/images/felipe.jpg');
 }
-#sophia{
+
+#sophia {
     background-image: url('../src/images/sophia.jpeg');
 }
-#thomas{
+
+#thomas {
     background-image: url('../src/images/thomas.jpg');
 }
-.integrante-titulo p{
+
+.integrante-titulo p {
     background-color: #540F85;
     color: #fff;
     height: 40px;
@@ -270,7 +313,8 @@ nav ul li a:hover{
     border: #540F85 2px solid;
     border-radius: 25px 25px 0 0;
 }
-.integrante-info{
+
+.integrante-info {
     background-color: #f4f4f4;
     height: 0px;
     justify-content: space-evenly;
@@ -281,6 +325,116 @@ nav ul li a:hover{
     display: flex;
     overflow: hidden;
 }
-.integrante-info img{
+
+.integrante-info img {
     width: 30px;
+}
+#equipe .sobre-nos-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+#equipe .sobre-nos{
+    width: 80vw;
+    text-align: justify;
+    font-weight: 300;
+}
+#nossos-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nossos-projetos-container{
+    background-color: #e8e8e8;
+    min-height: 500px;
+    border: #A759D0 solid 2px;
+    display: flex;
+    width: 99vw;
+}
+#nossos-projetos .imagem-notebook{
+    background-image: url(../src/images/notebook.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+}
+.nossos-projetos-content{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 400px);
+    padding-bottom: 20px;
+}
+.nossos-projetos-content h2{
+    display: flex;
+    color: #540F85;
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.group-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+}
+#animal-point{
+    background-image: url(../src/images/animal-point.png);
+}
+#preparetec{
+    background-image: url(../src/images/preparetec.png);
+}
+.group-projetos .card-projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 280px;
+    width: 280px;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    border: 2px solid #670DA7;
+}
+
+@media(max-width: 1000px){
+    .nossos-projetos-container{
+        min-width: 400px;
+        max-width: 400px;
+        flex-direction: column;
+    }
+    .nossos-projetos-content h2{
+        width: 400px;
+    }
+    .group-projetos{
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+}
+@media(max-width: 500px){
+    .nossos-projetos-container{
+        min-width: 300px;
+        max-width: 300px;
+        flex-direction: column;
+    }
+    .nossos-projetos-content h2{
+        width: 300px;
+    }
+    #nossos-projetos .imagem-notebook{
+        background-image: url(../src/images/notebook.png);
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        width: 300px;
+        background-repeat: no-repeat;
+    }
+    .group-projetos{
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
 }
