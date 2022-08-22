@@ -19,6 +19,9 @@
 	 * @param {HTMLElement|jQuery} element - The element to create the carousel for.
 	 * @param {Object} [options] - The options
 	 */
+
+	
+
 	function Owl(element, options) {
 
 		/**
@@ -191,7 +194,7 @@
 		freeDrag: false,
 
 		margin: 0,
-		stagePadding: 0,
+		stagePadding: Number,
 
 		merge: false,
 		mergeFit: true,

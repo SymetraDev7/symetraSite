@@ -246,6 +246,9 @@ nav ul li a:hover {
     height: 350px;
     align-items: center;
     overflow-x: auto;
+    width: 100%;
+    justify-content: center;
+    
 }
 
 #carousel-equipe::-webkit-scrollbar {
@@ -398,6 +401,12 @@ nav ul li a:hover {
     background-size: cover;
     margin: 10px;
     border: 2px solid #670DA7;
+}
+.card-title, .card-content{
+    z-index: 3;
+}
+.card-content{
+    background-color: #670DA7;
 }
 
 @media(max-width: 1000px){
