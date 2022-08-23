@@ -247,8 +247,6 @@ nav ul li a:hover {
     align-items: center;
     overflow-x: auto;
     width: 100%;
-    justify-content: center;
-    
 }
 
 #carousel-equipe::-webkit-scrollbar {
@@ -408,7 +406,11 @@ nav ul li a:hover {
 .card-content{
     background-color: #670DA7;
 }
-
+@media(min-width: 1650px){
+    #carousel-equipe{
+        justify-content: center;
+    }
+}
 @media(max-width: 1000px){
     .nossos-projetos-container{
         min-width: 400px;
