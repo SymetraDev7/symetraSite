@@ -1,3 +1,12 @@
+:root{
+    --branco: #f5f5f5;
+    --roxinho-claro: #D7A9EF;
+    --roxo-claro: #A759D0;
+    --roxo-vibrante: #670DA7;
+    --roxo-vibrante-escuro: #540F85;
+    --roxo-escuro: #280f44;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,12 +19,12 @@ a{
 body {
     font-family: 'Kulim Park', sans-serif;
     font-size: 20px;
-    background-color: #F5F5F5;
+    background-color: var(--branco);
 }
 
 header {
     position: fixed;
-    background-color: #280f44;
+    background-color: var(--roxo-escuro);
     height: 55px;
     display: flex;
     width: 100%;
@@ -128,7 +137,7 @@ nav ul li a:hover {
     border-radius: 20px;
     border: none;
     font-size: 20px;
-    color: #fff;
+    color: var(--branco);
 }
 
 #botao-nossos-projetos button:hover {
@@ -175,7 +184,7 @@ nav ul li a:hover {
 }
 
 #break-section-subtitle {
-    color: #D7A9EF;
+    color: var(--roxinho-claro);
     display: flex;
     height: 80px;
     align-items: center;
@@ -183,7 +192,7 @@ nav ul li a:hover {
 }
 
 #break-section-title {
-    color: white;
+    color: var(--branco);
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -210,7 +219,7 @@ nav ul li a:hover {
 }
 
 .titulo-valores {
-    color: #670DA7;
+    color: var(--roxo-vibrante);
     font-size: 25px;
     display: flex;
     width: 100%;
@@ -235,7 +244,7 @@ nav ul li a:hover {
 
 #titulo-equipe {
     font-size: 35px;
-    color: #540F85;
+    color: var(--roxo-vibrante-escuro);
     text-align: center;
 }
 
@@ -258,13 +267,13 @@ nav ul li a:hover {
 }
 
 #carousel-equipe::-webkit-scrollbar-track {
-   background: #A759D0;
+   background: var(--roxo-claro);
 }
 
 #carousel-equipe::-webkit-scrollbar-thumb {
     background-color: #f4f4f4;
     border-radius: 20px;
-    border: 3px solid #A759D0;
+    border: 3px solid var(--roxo-claro);
 }
 
 .card-integrante {
@@ -278,7 +287,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    border: #540F85 2px solid;
+    border: var(--roxo-vibrante-escuro) 2px solid;
     border-radius: 10%;
     background-size: cover;
     background-position: center;
@@ -308,8 +317,8 @@ nav ul li a:hover {
 }
 
 .integrante-titulo p {
-    background-color: #540F85;
-    color: #fff;
+    background-color: var(--roxo-vibrante-escuro);
+    color: var(--branco);
     height: 40px;
     width: 100%;
     display: flex;
@@ -320,7 +329,7 @@ nav ul li a:hover {
 }
 
 .integrante-info {
-    background-color: #f4f4f4;
+    background-color: var(--branco);
     height: 0px;
     justify-content: space-evenly;
     align-items: center;
@@ -353,7 +362,7 @@ nav ul li a:hover {
 .nossos-projetos-container{
     background-color: #e8e8e8;
     min-height: 500px;
-    border: #A759D0 solid 2px;
+    border: var(--roxo-claro) solid 2px;
     display: flex;
     width: 99vw;
 }
@@ -407,7 +416,7 @@ h2{
     background-position: center;
     background-size: cover;
     margin: 10px;
-    border: 2px solid #670DA7;
+    border: 2px solid var(--roxo-vibrante);
     overflow: hidden;
     border-radius: 40px;
 }
@@ -424,7 +433,7 @@ h2{
     padding: 10px;
 }
 .card-title{
-    background-color: #670DA7;
+    background-color: var(--roxo-vibrante);
     color: #fff;
     height: 40px;
     display: flex;
@@ -433,7 +442,7 @@ h2{
 }
 .card-content{
     visibility: hidden;
-    background-color: #F5F5F5;
+    background-color: var(--branco);
     height: 0px;
     transition: 0.5s;
     text-align: justify;
@@ -447,7 +456,7 @@ h2{
     background: linear-gradient(90deg, rgba(61,14,89,1) 0%, rgba(111,49,145,1) 66%, rgba(156,73,200,1) 100%);
 }
 #tecnologias h2{
-    color: #f5f5f5;
+    color: var(--branco);
 }
 .tecnologias-text{
     color: #fff;
@@ -465,20 +474,20 @@ h2{
 }
 
 .group-tecnologias::-webkit-scrollbar-track {
-   background: #A759D0;
+   background: var(--roxo-claro);
 }
 
 .group-tecnologias::-webkit-scrollbar-thumb {
-    background-color: #f4f4f4;
+    background-color: var(--branco);
     border-radius: 20px;
-    border: 3px solid #A759D0;
+    border: 3px solid var(--roxo-claro);
 }
 .card-tecnologias-mom{
     max-width: 200px;
     height: 260px;
-    background-color: #fff;
+    background-color: var(--branco);
     margin: 0 40px;
-    border: 2px solid #D7A9EF;
+    border: 2px solid var(--roxinho-claro);
     border-radius: 20px;
 }
 .card-tecnologias{
@@ -539,7 +548,7 @@ h2{
     justify-content: center;
 }
 footer{
-    background-color: #20083b;
+    background-color: var(--roxo-escuro);
     color: #fff;
 }
 footer a{
