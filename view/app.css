@@ -633,6 +633,11 @@ footer .nossos-projetos, footer .contato-footer{
     .nossos-projetos-content p{
         width: 230px;
     }
+    .group-projetos{
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
     #nossos-projetos .imagem-notebook{
         background-image: url(../src/images/notebook.png);
         background-size: cover;
