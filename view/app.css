@@ -647,3 +647,32 @@ footer .nossos-projetos, footer .contato-footer{
         background-repeat: no-repeat;
     }
 }
+/* Contato */
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.linha{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.linha input, .linha textarea{
+    width: 90%;
+    border: #670DA7 1px solid;
+    font-size: larger;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contato .btn{
+    background-color: #670DA7;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 15px 15px 15px 15px;
+}
