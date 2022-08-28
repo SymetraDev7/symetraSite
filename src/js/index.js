@@ -15,5 +15,6 @@ let buttonToggleMenu = document.querySelector(".icon-menu");
 
 buttonToggleMenu.addEventListener("click", () => {
   let nav = document.querySelector(".menu");
+  buttonToggleMenu.classList.toggle("active-icon");
   nav.classList.toggle("active");
 });
