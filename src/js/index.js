@@ -4,6 +4,7 @@ let buttonToggleMode = document.querySelector("#symetra-logo");
 buttonToggleMode.addEventListener("click", () => {
   let page = document.querySelector("body");
   page.classList.toggle("dark");
+})
 
 
 let buttonToggleMenu = document.querySelector(".icon-menu");
