@@ -254,7 +254,6 @@ nav ul li a:hover {
 }
 
 .titulo-valores {
-  color: var(--bg-border-second-color);
   font-size: 25px;
   display: flex;
   width: 100%;
@@ -281,7 +280,7 @@ nav ul li a:hover {
 
 #titulo-equipe {
   font-size: 35px;
-  color: var(--font-color-second);
+  color: var(--second-color);
   text-align: center;
 }
 
@@ -343,8 +342,16 @@ nav ul li a:hover {
   color: var(--font-color-principal);
 }
 
+#demerson{
+  background-image: url("../src/images/demerson.jpeg");
+}
+
 #felipe {
   background-image: url("../src/images/felipe.jpg");
+}
+
+#ryan{
+  background-image: url("../src/images/ryan.jpg");
 }
 
 #sophia {
@@ -357,7 +364,7 @@ nav ul li a:hover {
 
 .integrante-titulo p {
   background-color: var(--font-color-second);
-  color: var(--font-color-principal);
+  color: #fff;
   height: 40px;
   width: 100%;
   display: flex;
@@ -430,7 +437,7 @@ h2 {
   font-weight: 500;
   font-size: 20px;
   display: flex;
-  color: var(--bg-border-color);
+  color: #fcfcfc;
   height: 60px;
   width: 100%;
   justify-content: center;
@@ -462,7 +469,8 @@ h2 {
   border: 2px solid var(--bg-border-second-color);
   overflow: hidden;
   border-radius: 40px;
-}
+  background-color: var(--bg-color-Principal);
+} 
 .card-projetos a {
   color: var(--font-color-principal);
 }
@@ -474,6 +482,8 @@ h2 {
   visibility: visible;
   height: 240px;
   padding: 10px;
+  background-color: #fff;
+
 }
 .card-title {
   background-color: var(--bg-border-second-color);
@@ -489,6 +499,7 @@ h2 {
   height: 0px;
   transition: 0.5s;
   text-align: justify;
+
 }
 #tecnologias {
   display: flex;
@@ -766,7 +777,7 @@ h2 {
   font-weight: 500;
   font-size: 20px;
   display: flex;
-  color: #540f85;
+  color: #fcfcfc;
   height: 60px;
   width: 100%;
   justify-content: center;
@@ -798,6 +809,7 @@ h2 {
   border: 2px solid var(--bg-border-second-color);
   overflow: hidden;
   border-radius: 40px;
+  background-color: var(--bg-color-Principal);
 }
 .card-projetos a {
   color: #000;
@@ -821,10 +833,11 @@ h2 {
 }
 .card-content {
   visibility: hidden;
-  background-color: var(--branco);
   height: 0px;
   transition: 0.5s;
   text-align: justify;
+  background-color: var(--bg-color-Principal);
+  color: var(--font-color-principal);
 }
 #tecnologias {
   display: flex;
@@ -840,7 +853,7 @@ h2 {
   );
 }
 #tecnologias h2 {
-  color: var(--branco);
+  color: #fcfcfc;
 }
 .tecnologias-text {
   color: #fff;
@@ -852,6 +865,7 @@ h2 {
   align-items: center;
   height: 340px;
   overflow-x: auto;
+
 }
 .group-tecnologias::-webkit-scrollbar {
   width: 12px;
@@ -862,16 +876,16 @@ h2 {
 }
 
 .group-tecnologias::-webkit-scrollbar-thumb {
-  background-color: var(--branco);
+  background-color: #fcfcfc;
   border-radius: 20px;
   border: 3px solid var(--bg-color-second);
 }
 .card-tecnologias-mom {
   max-width: 200px;
   height: 260px;
-  background-color: var(--branco);
+  background-color: var(--bg-color-Principal);
   margin: 0 40px;
-  border: 2px solid var(--roxinho-claro);
+  border: 2px solid var(--bg-border-colorf);
   border-radius: 20px;
 }
 .card-tecnologias {
@@ -1046,6 +1060,7 @@ footer .contato-footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--font-color-principal);
 }
 .linha input,
 .linha textarea {
@@ -1061,4 +1076,8 @@ footer .contato-footer {
   padding: 10px;
   border: 1px solid #fff;
   border-radius: 15px 15px 15px 15px;
+}
+
+.contato h2 {
+  color: var(--font-color-principal);
 }
