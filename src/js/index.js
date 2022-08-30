@@ -1,4 +1,4 @@
-let buttonToggleMode = document.querySelector("#modes");
+let buttonToggleMode = document.querySelector("#symetra-logo");
 7;
 
 buttonToggleMode.addEventListener("click", () => {
